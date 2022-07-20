@@ -1,0 +1,24 @@
+{
+  "name": "think-js-cli",
+  "version": "1.1.1",
+  "description": "This is a ThinkJS cli tool.",
+  "keywords": [
+    "think-js-cli",
+    "think-js-lib",
+    "cli"
+  ],
+  "main": "index.js",
+  "author": "zhangyu",
+  "license": "ISC",
+  "bin": {
+    "think-js-cli": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
+  }
+}
